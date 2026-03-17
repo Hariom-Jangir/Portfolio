@@ -8,15 +8,32 @@ const Contact = () => {
     email: "",
     message: ""
   });
-  const handleSubmit = e => {
-    e.preventDefault();
-    toast.success("Message sent! I'll get back to you soon.");
-    setForm({
-      name: "",
-      email: "",
-      message: ""
+  
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
     });
-  };
+
+    const data = await res.json();
+
+    if (data.success) {
+      toast.success("Message sent successfully!");
+      setForm({ name: "", email: "", message: "" });
+    } else {
+      toast.error("Failed to send message");
+    }
+  } catch (error) {
+    toast.error("Server error");
+  }
+};
+
   return <section id="contact" className="section-padding">
       <div className="container mx-auto max-w-2xl">
         <motion.h2 initial={{

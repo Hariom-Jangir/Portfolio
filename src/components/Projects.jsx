@@ -16,20 +16,12 @@ const projects = [
   title: "URL Shortener",
   description:
     "Web application that shortens long URLs and provides analytics for click tracking.",
-  image: "/profile.jpeg",
+  image: "/url.png",
   github: "https://github.com/Hariom-Jangir/url-shortener",
   demo: "#",
   tags: ["Next.js", "MongoDB", "React"],
 },
-{
-  title: "Spotify Clone",
-  description:
-    "A full-featured Spotify clone with music playback, playlists, and search functionality built with the MERN stack.",
-  image: "/profile.jpeg",
-  github: "#",
-  demo: "#",
-  tags: ["React", "Node.js", "MongoDB"],
-},
+
 {
   title: "Portfolio Website",
   description:
