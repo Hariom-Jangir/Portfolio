@@ -2,6 +2,25 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
+
+{
+  title: "Password Manager",
+  description:
+    "Secure password management application with encryption, user authentication, and cross-platform synchronization.",
+  image: "/profile.jpeg",
+  github: "https://github.com/Hariom-Jangir/password-manager",
+  demo: "#",
+  tags: ["React", "MongoDB", "Express"],
+},
+{
+  title: "URL Shortener",
+  description:
+    "Web application that shortens long URLs and provides analytics for click tracking.",
+  image: "/profile.jpeg",
+  github: "https://github.com/Hariom-Jangir/url-shortener",
+  demo: "#",
+  tags: ["Next.js", "MongoDB", "React"],
+},
 {
   title: "Spotify Clone",
   description:
@@ -12,29 +31,11 @@ const projects = [
   tags: ["React", "Node.js", "MongoDB"],
 },
 {
-  title: "MERN Chat App",
-  description:
-    "Real-time messaging application with WebSocket support, user authentication, and group chats.",
-  image: "/profile.jpeg",
-  github: "#",
-  demo: "#",
-  tags: ["React", "Socket.io", "Express"],
-},
-{
-  title: "AI Face Detection",
-  description:
-    "Web application that detects and recognizes faces in images using deep learning models and computer vision.",
-  image: "/profile.jpeg",
-  github: "#",
-  demo: "#",
-  tags: ["Python", "TensorFlow", "React"],
-},
-{
   title: "Portfolio Website",
   description:
     "Modern developer portfolio with Three.js animated background, smooth animations, and responsive design.",
   image: "/profile.jpeg",
-  github: "#",
+  github: "https://github.com/Hariom-Jangir/portfolio-website",
   demo: "#",
   tags: ["React", "Three.js", "Framer Motion"],
 },
