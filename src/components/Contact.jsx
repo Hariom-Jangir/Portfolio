@@ -11,6 +11,7 @@ const Contact = () => {
   
 const handleSubmit = async (e) => {
   e.preventDefault();
+  console.log("Submitting...");
 
   try {
     const res = await fetch("https://portfolio-t8fe.onrender.com/contact", {
@@ -21,6 +22,8 @@ const handleSubmit = async (e) => {
       body: JSON.stringify(form),
     });
 
+    console.log("Response received");
+
     const data = await res.json();
 
     if (data.success) {
@@ -30,6 +33,7 @@ const handleSubmit = async (e) => {
       toast.error("Failed to send message");
     }
   } catch (error) {
+    console.log(error);
     toast.error("Server error");
   }
 };
