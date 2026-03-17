@@ -7,7 +7,7 @@ const projects = [
   title: "Password Manager",
   description:
     "Secure password management application with encryption, user authentication, and cross-platform synchronization.",
-  image: "/profile.jpeg",
+  image: "/pass.png",
   github: "https://github.com/Hariom-Jangir/password-manager",
   demo: "#",
   tags: ["React", "MongoDB", "Express"],
