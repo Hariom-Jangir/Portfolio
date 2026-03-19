@@ -14,7 +14,7 @@ const handleSubmit = async (e) => {
   console.log("Submitting...");
 
   try {
-    const res = await fetch("https://portfolio-t8fe.onrender.com/contact", {
+    const res = await fetch("https://portfolio-c88j.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
