@@ -1,5 +1,6 @@
 const express = require("express");
-const nodemailer = require("nodemailer");
+const { Resend } = require("resend");
+const resend = new Resend(process.env.RESEND_API_KEY);
 const cors = require("cors");
 require("dotenv").config();
 
@@ -29,17 +30,16 @@ app.post("/contact", async (req, res) => {
 
     console.log("Before sending mail");
 
-    await transporter.sendMail({
-      from: process.env.EMAIL,
-      to: process.env.EMAIL,
-      replyTo: email,
-      subject: `New message from ${name}`,
-      text: `
-        Name: ${name}
-        Email: ${email}
-        Message: ${message}
-      `,
-    });
+   await resend.emails.send({
+  from: "onboarding@resend.dev",
+  to: process.env.EMAIL,
+  subject: `New message from ${name}`,
+  text: `
+Name: ${name}
+Email: ${email}
+Message: ${message}
+  `,
+});
 
     console.log("After sending mail");
 
