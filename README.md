@@ -25,15 +25,7 @@ The frontend features a modern UI with **smooth animations and an interactive 3D
 
 ## 🏗️ Architecture
 
-Frontend (React + Vite)
-      ⬇
-API Calls (`/contact`)
-      ⬇
-Backend (Node.js + Express)
-      ⬇
-Handles form data & response
-
----
+Frontend (React + Vite) → API (/contact) → Backend (Node.js + Express)
 
 ## 🛠️ Tech Stack
 
@@ -43,7 +35,6 @@ Handles form data & response
 * Tailwind CSS
 * Framer Motion (animations)
 * Three.js (3D graphics & interactive background)
-* Lucide React (icons)
 
 ### ⚙️ Backend
 
