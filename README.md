@@ -26,11 +26,11 @@ The frontend features a modern UI with **smooth animations and an interactive 3D
 ## 🏗️ Architecture
 
 Frontend (React + Vite)
-⬇
+      ⬇
 API Calls (`/contact`)
-⬇
+      ⬇
 Backend (Node.js + Express)
-⬇
+      ⬇
 Handles form data & response
 
 ---
