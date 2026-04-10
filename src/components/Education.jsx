@@ -87,7 +87,7 @@ const Education = () => {
                     Senior Secondary (Class 12)
                   </h3>
                   <p className="text-sm text-primary font-medium mt-1">
-                    94.40% | CBSE
+                    94.40% 
                   </p>
                 </div>
 
@@ -117,7 +117,7 @@ const Education = () => {
                     Secondary (Class 10)
                   </h3>
                   <p className="text-sm text-primary font-medium mt-1">
-                    98% | CBSE
+                    98%
                   </p>
                 </div>
 
