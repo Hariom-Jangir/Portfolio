@@ -2,35 +2,33 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
-
-{
-  title: "Password Manager",
-  description:
-    "Secure password management application with encryption, user authentication, and cross-platform synchronization.",
-  image: "/pass.png",
-  github: "https://github.com/Hariom-Jangir/password-manager",
-  demo: "#",
-  tags: ["React", "MongoDB", "Express"],
-},
-{
-  title: "URL Shortener",
-  description:
-    "Web application that shortens long URLs and provides analytics for click tracking.",
-  image: "/url.png",
-  github: "https://github.com/Hariom-Jangir/url-shortener",
-  demo: "#",
-  tags: ["Next.js", "MongoDB", "React"],
-},
-
-{
-  title: "Portfolio Website",
-  description:
-    "Modern developer portfolio with Three.js animated background, smooth animations, and responsive design.",
-  image: "/profile.jpeg",
-  github: "https://github.com/Hariom-Jangir/portfolio-website",
-  demo: "#",
-  tags: ["React", "Three.js", "Framer Motion"],
-},
+  {
+    title: "Recipe Recommendation System",
+    description:
+      "Full-stack ML-powered recipe recommendation app. Enter a dish name or custom ingredients to get AI-driven suggestions using TF-IDF, PCA, KMeans and KNN achieving ~88% cross-validation accuracy across 1,000+ recipes.",
+    image: "/recipe.png",
+    github: "https://github.com/Hariom-Jangir/Recipe_Recommedation",
+    demo: "https://recipe-recommedation.vercel.app",
+    tags: ["React", "Flask", "Python", "scikit-learn", "TailwindCSS"],
+  },
+  {
+    title: "URL Shortener",
+    description:
+      "Web application that shortens long URLs and provides analytics for click tracking.",
+    image: "/url.png",
+    github: "https://github.com/Hariom-Jangir/url-shortener",
+    demo: "#",
+    tags: ["Next.js", "MongoDB", "React"],
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "Modern developer portfolio with Three.js animated background, smooth animations, and responsive design.",
+    image: "/profile.jpeg",
+    github: "https://github.com/Hariom-Jangir/portfolio-website",
+    demo: "https://portfolio-hariom-jangir.vercel.app",
+    tags: ["React", "Three.js", "Framer Motion"],
+  },
 ];
 
 const ProjectCard = ({ project, index }) => (
