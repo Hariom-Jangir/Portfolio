@@ -6,7 +6,7 @@ const projects = [
     title: "Recipe Recommendation System",
     description:
       "Full-stack ML-powered recipe recommendation app. Enter a dish name or custom ingredients to get AI-driven suggestions using TF-IDF, PCA, KMeans and KNN achieving ~88% cross-validation accuracy across 1,000+ recipes.",
-    image: "/recipe.png",
+    image: "/Recipe_ss.png",
     github: "https://github.com/Hariom-Jangir/Recipe_Recommedation",
     demo: "https://recipe-recommedation.vercel.app",
     tags: ["React", "Flask", "Python", "scikit-learn", "TailwindCSS"],
