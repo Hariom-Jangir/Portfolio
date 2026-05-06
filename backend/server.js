@@ -26,8 +26,9 @@ app.post("/contact", async (req, res) => {
     console.log("Before sending mail");
 
     await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: 'Portfolio <onboarding@resend.dev>',
       to: process.env.EMAIL,
+      reply_to: email,
       subject: `New message from ${name}`,
       text: `
 Name: ${name}
