@@ -3,6 +3,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
 
+{
+  title: "PrepAI – AI Interview Preparation Platform",
+  description:
+    "Production-grade full-stack AI platform that analyzes your resume, job description, and self-description to generate a match score, skill gap analysis, role-specific technical & behavioral questions, ATS-optimized resume, and a 7-day prep roadmap — reducing manual interview prep effort by ~70%.",
+  image: "/PrepAI.png",
+  github: "https://github.com/Hariom-Jangir/resume-ai",
+  demo: "",
+  tags: ["React", "Node.js", "Express", "MongoDB", "Gemini SDK", "Puppeteer", "JWT"],
+},
 
 
 
