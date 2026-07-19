@@ -1,5 +1,20 @@
 import { motion } from "framer-motion";
-const skills = [{
+const skills = [
+   {
+  name: "C++",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+},
+  {
+  name: "Python",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+}, {
+  name: "C",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+}, {
+  name: "SQL",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+},
+  {
   name: "JavaScript",
   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 }, {
@@ -17,19 +32,7 @@ const skills = [{
 }, {
   name: "MongoDB",
   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-}, {
-  name: "Python",
-  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-}, {
-  name: "C",
-  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-}, {
-  name: "C++",
-  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-}, {
-  name: "SQL",
-  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-}, {
+},  {
   name: "Flask",
   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
 }, {
